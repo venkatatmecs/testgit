@@ -1,0 +1,6 @@
+---
+- hosts: 172.27.210.32
+  sudo: yes
+  tasks:
+    - name: install apache2
+      apt: name=apache2 update_cache=yes state=latest

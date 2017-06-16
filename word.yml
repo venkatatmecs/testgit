@@ -1,0 +1,10 @@
+---
+- 
+  hosts: 192.168.0.26
+
+  roles:
+    - server ansible-galaxy init server
+    - php ansible-galaxy init php
+    - mysql ansible-galaxy init mysql
+    - wordpress ansible-galaxy init wordpress
+
