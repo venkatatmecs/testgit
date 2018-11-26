@@ -1,5 +1,5 @@
 ---
-- hosts: 172.27.210.104
+- hosts: 192.168.248.135
   sudo: yes
   tasks:
     - name: Installs nginx web server
@@ -11,7 +11,7 @@
     - name: start nginx
       service: name=nginx state=started
 ---
-- hosts: 172.27.211.108 
+- hosts: 192.168.248.135 
   sudo: yes
   tasks:
     - name: Installs nginx web server
